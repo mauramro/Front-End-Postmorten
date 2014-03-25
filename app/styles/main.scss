@@ -1,6 +1,12 @@
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
-
 @import 'sass-bootstrap/lib/bootstrap';
+@import "login";
+@import "template";
+
+
+ul{
+    list-style-type:none;
+}
 
 .browsehappy {
     margin: 0.2em 0;
@@ -11,7 +17,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 /* Space out content a bit */
 body {
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -68,24 +74,51 @@ body {
 }
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
     .container {
         max-width: 730px;
-    }
-
+    }*/
     /* Remove the padding we set earlier */
-    .header,
+ /*   .header,
     .marketing,
     .footer {
         padding-left: 0;
         padding-right: 0;
-    }
+    }*/
     /* Space out the masthead */
-    .header {
+ /*   .header {
         margin-bottom: 30px;
-    }
+    }*/
     /* Remove the bottom border on the jumbotron for visual effect */
-    .jumbotron {
+  /*  .jumbotron {
         border-bottom: 0;
     }
+}*/
+
+@media screen and (min-width: 1200px) {
+    /*.container {
+        max-width: 1170px;
+    }*/
 }
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+//containers
+
+.container {
+        max-width: 1200px;
+    }
+.fluid-container{
+        max-width:1200px;
+        }
+
+
+

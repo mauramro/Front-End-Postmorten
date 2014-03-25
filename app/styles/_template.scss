@@ -1,0 +1,56 @@
+.navbar-default{
+    background-color: grey;
+}
+
+.main{
+    margin:40px auto;
+}
+.col-md-5{
+    width:48.4%;
+}
+label, input{
+    font-size:14px;
+}
+input{
+    width: 250px;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom:20px;
+}
+.jumbotron{
+    border-radius: 20px;
+        .row{
+            margin-bottom: 20px;
+            div{
+                border: 2px solid rgb(180, 180, 180);
+                border-radius: 20px;
+                margin: 0 auto;
+                padding: 10px 20px;
+                margin-right: 30px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.jumbotron ul{
+    padding: 0;
+    li{
+    margin-right:40px;
+    float:left;
+    border: 1px solid #000;
+    border-radius:50px;
+        &:last-child{
+            margin-right: 0;
+        }
+        &:hover{
+            color: #fff;
+            background-color: grey;
+        }
+    }
+    > .row{
+        border: none;
+        margin-right: 0;
+    }
+}

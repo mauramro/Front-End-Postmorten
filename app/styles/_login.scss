@@ -1,0 +1,11 @@
+.ctn-login{
+    margin-top:10%;
+    width: 500px;
+}
+.login{
+    padding: 15px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+
+   @include box-shadow(2px 3px 10px #000);
+}
